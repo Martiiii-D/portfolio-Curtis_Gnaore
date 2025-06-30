@@ -58,7 +58,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/portfolio-Curtis_Gnaore">
       <div className="min-h-screen">
         <Header activeSection={activeSection} onSectionClick={scrollToSection} />
         <main>
